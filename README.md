@@ -13,10 +13,11 @@ Table of Contents
 
 
 
-7. Input and Output
+
+# 7. Input and Output
 There are several ways to present the output of a program; data can be printed in a human-readable form, or written to a file for future use. This chapter will discuss some of the possibilities.
 
-7.1. Fancier Output Formatting
+# 7.1. Fancier Output Formatting
 So far we’ve encountered two ways of writing values: expression statements and the print() function. (A third way is using the write() method of file objects; the standard output file can be referenced as sys.stdout. See the Library Reference for more information on this.)
 
 Often you’ll want more control over the formatting of your output than simply printing space-separated values. There are several ways to format output.
@@ -44,7 +45,7 @@ The str() function is meant to return representations of values which are fairly
 
 Some examples:
 
->>>
+'''>>>
 s = 'Hello, world.'
 str(s)
 'Hello, world.'
@@ -56,7 +57,7 @@ x = 10 * 3.25
 y = 200 * 200
 s = 'The value of x is ' + repr(x) + ', and y is ' + repr(y) + '...'
 print(s)
-The value of x is 32.5, and y is 40000...
+The value of x is 32.5, and y is 40000...''''
 # The repr() of a string adds string quotes and backslashes:
 hello = 'hello, world\n'
 hellos = repr(hello)
